@@ -1,0 +1,6 @@
+
+.cu-list.menu>.cu-item.arrow:before {
+	color: white;
+}
+
+

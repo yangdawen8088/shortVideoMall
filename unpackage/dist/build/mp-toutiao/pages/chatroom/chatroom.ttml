@@ -1,0 +1,2 @@
+<import src="./chatroom.vue.ttml" />
+    <template is="57d1514c" data="{{ ...$root['0'], $root }}"/>

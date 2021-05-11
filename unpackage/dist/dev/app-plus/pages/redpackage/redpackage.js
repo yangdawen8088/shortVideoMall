@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"redpackage .",[1],"cu-list.",[1],"menu-avatar .",[1],"cu-item{ }\n",],undefined,{path:"./pages/redpackage/redpackage.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/redpackage/redpackage.wxml') } }));

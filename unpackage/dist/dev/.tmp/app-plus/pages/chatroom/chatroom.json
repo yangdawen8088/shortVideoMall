@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "chat": "comps/chat/chat"
+  },
+  "navigationStyle": "default",
+  "navigationBarTitleText": " ",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true
+}

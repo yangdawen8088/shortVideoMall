@@ -1,0 +1,11 @@
+<import src="/node-modules/@dcloudio/uni-ui/lib/uni-number-box/uni-number-box.vue.wxml" />
+<import src="/comps/chat/chat.vue.wxml" />
+<import src="/comps/chat/inputbar/suit/audio/audio.vue.wxml" />
+<import src="/comps/chat/msglist/msglist.vue.wxml" />
+<import src="/comps/chat/inputbar/inputbar.vue.wxml" />
+<import src="/comps/chat/inputbar/suit/emoji/emoji.vue.wxml" />
+<import src="/comps/chat/inputbar/suit/main/main.vue.wxml" />
+<import src="/comps/chat/inputbar/suit/image/image.vue.wxml" />
+
+<template name="M55832b36-default-55832b36-0">{{count}}</template>
+

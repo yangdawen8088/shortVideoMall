@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"detail .",[1],"scroll { }\n.",[1],"detail .",[1],"scroll wx-textarea{ font-size: ",[0,34],"; height: ",[0,200],"; width: 100%; padding: ",[0,20]," 0; }\n.",[1],"detail .",[1],"scroll wx-image{ width: 100%; }\n",],undefined,{path:"./pages/add/adddetail.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/add/adddetail.wxml') } }));

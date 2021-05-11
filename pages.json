@@ -1,0 +1,265 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/video/main",
+			"style": {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+		},
+		
+	   
+        {
+            "path" : "pages/login/login",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/redpackage/redpackage",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/goods/goods",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        }
+		,{
+            "path" : "pages/goods/goodslist",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        },
+		{
+            "path" : "pages/goods/goodsbuy",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        },
+		{
+            "path" : "pages/order/myorderlist",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        },
+		
+		{
+            "path" : "pages/order/userorderlist",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        },
+		
+
+		
+        {
+            "path" : "pages/add/add",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        },
+		{
+            "path" : "pages/add/addform",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        },
+		{
+		    "path" : "pages/add/addstyle",
+		    "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+		    "path" : "pages/add/adddetail",
+		    "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+		    "path" : "pages/add/goodslist",
+		    "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+		    "path" : "pages/goods/goodsmodify",
+		    "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+		}
+        ,{
+            "path" : "pages/video/video",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        },
+		
+        {
+            "path" : "pages/download/download",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        },
+		{
+			"path":"pages/chatroom/chatroom",
+			"style":{
+				"navigationStyle":"default",
+				"navigationBarTitleText":" ",
+				"backgroundTextStyle": "dark",
+				"enablePullDownRefresh": true,
+				"usingComponents": {
+					"chat": "comps/chat/chat"
+				}
+			}
+		}
+        ,{
+            "path" : "pages/classify/classify",
+            "style" : {}
+        },
+		{
+		    "path" : "pages/video/one",
+		    "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+		}
+        ,{
+            "path" : "pages/market/market_dianzan",
+            "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+        },
+		{
+		    "path" : "pages/market/market_dianzan_detail",
+		    "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+		    "path" : "pages/download/webpage",
+		    "style" : {
+				"disableScroll":true,
+				"navigationStyle": "custom"
+			}
+		}
+		
+        ,{
+            "path" : "pages/admin/admin",
+            "style": {
+            	"disableScroll":true,
+            	"navigationStyle": "custom"
+            }
+        }
+		,{
+		    "path" : "pages/admin/edit",
+		    "style": {
+		    	"disableScroll":true,
+		    	"navigationStyle": "custom"
+		    }
+		},
+		{
+		    "path" : "pages/admin/goodsmodify",
+		    "style": {
+		    	"disableScroll":true,
+		    	"navigationStyle": "custom"
+		    }
+		}
+		,{
+		    "path" : "pages/admin/adddetail",
+		    "style": {
+		    	"disableScroll":true,
+		    	"navigationStyle": "custom"
+		    }
+		}
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		
+		"navigationBarTitleText": "好物短视频",
+		"navigationBarBackgroundColor": "#222222",
+		"backgroundColor": "#222222",
+		"onReachBottomDistance":-50,
+		"enablePullDownRefresh": true
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#222",
+		"color": "#8F8F94",
+		"selectedColor": "#b79846",
+		"list": [
+			
+			{
+				"pagePath": "pages/video/main",
+				"iconPath": "static/img/tabbar/video.png",
+				"selectedIconPath": "static/img/tabbar/videoactive.png",
+				"text": "短视频"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"iconPath": "static/img/tabbar/classify.png",
+				"selectedIconPath": "static/img/tabbar/classifyactive.png",
+				"text": "分类"
+			},
+			
+			//#ifndef MP-WEIXIN
+			{
+				"pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+				"iconPath": "static/img/tabbar/add.png",
+				"selectedIconPath": "static/img/tabbar/addactive.png"
+			},
+			//#endif
+			
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"text": "我"
+			}
+		]
+	}
+}

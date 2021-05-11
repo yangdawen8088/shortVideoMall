@@ -1,0 +1,37 @@
+
+.goodslist .cu-list.menu-avatar .cu-item{
+	height: 250rpx;
+}
+.goodslist .cu-list.menu-avatar .cu-item .cu-avatar{
+	width: 200rpx;
+	height: 200rpx;
+	background-size: cover;
+	background-position: center;
+}
+.goodslist .cu-list.menu-avatar .cu-item .content{
+	left: 250rpx;
+	width: 475rpx;
+	height:200rpx;
+}
+.goodslist .cu-list.menu-avatar .cu-item .content .goods-title{
+	height:100rpx;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+}
+.goodslist .cu-list.menu-avatar .cu-item .content .goods-seller{
+	height:50rpx;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
+}
+.goodslist .cu-list.menu-avatar .cu-item .content .goods-action{
+	height:50rpx;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
+}
+

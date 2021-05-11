@@ -1,0 +1,4 @@
+<import src="/node-modules/@dcloudio/uni-ui/lib/uni-number-box/uni-number-box.vue.wxml" />
+
+<template name="M55832b36-default-55832b36-0">{{count}}</template>
+

@@ -1,0 +1,1 @@
+<import src="/comps/chat/chat.vue.wxml" /><template name="57d1514c"><template id="chat" chatType="singleChat" data="{{...$root['0'], ...$root[$kk+'57d1514c-0'],$root}}" is="ddde1a0c"></template></template>

@@ -1,0 +1,2 @@
+<import src="./userorderlist.vue.ttml" />
+    <template is="6503caea" data="{{ ...$root['0'], $root }}"/>

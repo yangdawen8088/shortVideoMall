@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/video/main",
+    "pages/tabbar/tabbar-1/goodsdetail",
+    "pages/login/login",
+    "pages/my/my",
+    "pages/setting/setting",
+    "pages/redpackage/redpackage",
+    "pages/goods/goods",
+    "pages/goods/goodslist",
+    "pages/goods/goodsbuy",
+    "pages/order/order",
+    "pages/order/myorderlist",
+    "pages/order/userorderlist",
+    "pages/tabbar/tabbar-3/tabbar-3",
+    "pages/add/add",
+    "pages/add/addform",
+    "pages/add/addstyle",
+    "pages/add/adddetail",
+    "pages/add/goodslist",
+    "pages/goods/goodsmodify",
+    "pages/video/video",
+    "pages/download/download",
+    "pages/chatroom/chatroom",
+    "pages/classify/classify"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTitleText": "好物短视频",
+    "navigationBarBackgroundColor": "#222222",
+    "backgroundColor": "#222222",
+    "onReachBottomDistance": -50,
+    "enablePullDownRefresh": true
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#222",
+    "color": "#8F8F94",
+    "selectedColor": "#b79846",
+    "list": [
+      {
+        "pagePath": "pages/video/main",
+        "iconPath": "static/img/tabbar/video.png",
+        "selectedIconPath": "static/img/tabbar/videoactive.png",
+        "text": "短视频"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+        "iconPath": "static/img/tabbar/add.png",
+        "selectedIconPath": "static/img/tabbar/addactive.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/img/tabbar/me.png",
+        "selectedIconPath": "static/img/tabbar/meactive.png",
+        "text": "我"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "好物短视频",
+  "compilerVersion": "2.1.3"
+}

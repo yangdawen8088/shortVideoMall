@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"addform .",[1],"cu-list.",[1],"menu\x3e.",[1],"cu-item{ background-color: rgba(0,0,0,0); }\n.",[1],"addform .",[1],"cu-item wx-input{ color: white; }\n.",[1],"cu-list.",[1],"menu\x3e.",[1],"cu-item.",[1],"arrow:before { color: white; }\n",],undefined,{path:"./pages/add/addform.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/add/addform.wxml') } }));

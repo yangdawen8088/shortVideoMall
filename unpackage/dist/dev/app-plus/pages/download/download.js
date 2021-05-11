@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content{ background-repeat: no-repeat; background-position: center; background-size: cover; }\n",],undefined,{path:"./pages/download/download.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/download/download.wxml') } }));

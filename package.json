@@ -1,0 +1,17 @@
+{
+  "name": "uni-tabbar_0.0.2",
+  "version": "1.0.0",
+  "description": "我们平常使用app的话，经常会看到比如抖音、今日头条等app底部tabbar中间都会有一个图标按钮。因为小程序和app、h5的平台差异性，所以暂时无法做到完全自定义tabbar。现给出一种解决方案，暂时解决tabar中间的按钮图标问题。",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dcloudio/uni-ui": "0.0.8",
+    "fingerprintjs2": "^2.1.0",
+    "jweixin-module": "^1.4.1"
+  }
+}

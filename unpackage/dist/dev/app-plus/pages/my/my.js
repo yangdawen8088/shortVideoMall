@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"cu-list.",[1],"menu\x3e.",[1],"cu-item.",[1],"arrow:before { color: white; }\n",],undefined,{path:"./pages/my/my.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/my.wxml') } }));

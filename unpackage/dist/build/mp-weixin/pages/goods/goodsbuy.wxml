@@ -1,0 +1,2 @@
+<import src="./goodsbuy.vue.wxml" />
+    <template is="1379091e" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,15 @@
+
+.setting .cu-form-group{
+	background-color: rgba(0,0,0,0);
+}
+.setting .cu-list.menu>.cu-item{
+	background-color: rgba(0,0,0,0);
+}
+.setting .cu-item input{
+	
+	color: white;
+}
+.cu-list.menu>.cu-item.arrow:before {
+	color: white;
+}
+
